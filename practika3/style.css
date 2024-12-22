@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    width: auto;
+    height: auto;
+    background: #FDFDFD;
+    font-family: Montserrat;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 209px;
+}
+logotext{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.HOME{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 552px;
+    height: 45px;
+    gap: 40px;
+    border: 1px solid#000;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ContactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 183px;
+    height: 50px;
+    border: 1px solid#000;
+    border-radius: 100px;
+    background: #000;
+    border-color: #000;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+.home2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('picture/ellips_header.png');
+}
+Built_on_Trust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+    margin: 50px;
+}
+.home1 > h1{
+    font-size: 96px;
+    font-weight: 900;
+    text-align: left;
+}
+.started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    width: 228px;
+    height: 50px;
+    border: 1px solid#000;
+    border-radius: 100px;
+    background: #000;
+    border-color: #000;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Reviews{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 205px;
+}
+.star1{
+    font-size: 22px;
+    font-weight: 400;
+}
+star{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+    font-weight: 400;
+    font-size: 26px;
+}
+.vector_contact{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-top: 100px;
+}
+.Innovation{
+    margin-top: 300px;
+}
+.Innovation > h1{
+    font-weight: 900;
+    font-size: 96px;
+    text-transform: uppercase; 
+    color: #0E0E0E;    
+}
+.E{
+    font-style: oblique;
+    font-weight: 1000;
+}
+.Innovation > p{
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase; 
+    color: #0E0E0E;
+}
+logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1914px;
+    height: 116px;
+    border: 2px solid#AAAAAA;
+    font-size: 20px;
+    font-weight: 100;
+}
+Why_Choose_Us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 130px;
+    margin: 150px;
+}
+conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.All-in-One-Cloud-Services{
+    background-image: url('picture/Group\ 1.png');
+    width: 410px;
+    height: 331px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Category{
+    border: 1px solid#000;
+    background-color: white;
+    border-radius: 100px;
+    width: 143px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 200px;
+}
+.Services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 47px;
+    margin-top: 150px;
+}
+Experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 350px;
+    margin-left: 150px;
+}
+.WhyChooseUs > h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.WhyChooseUs > p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.RELIABILITY{
+    font-weight: 900;
+    font-size: 64px;
+}
+Your_Trusted_Partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 120px;
+    margin: 150PX;
+}
+in_Cloud_Technology{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+in_Cloud_Technology > h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+in_Cloud_Technology > p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.Lorem{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+.ipsum{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1;
+}
+.W{
+    font-size: 40px;
+    font-weight: 700;
+}
+.GETSTARTED{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 228px;
+    height: 50px;
+    border: 1px solid#000;
+    border-radius: 100px;
+    background: #000;
+    border-color: #000;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 480px;
+}
+conteiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.All-in-One-Cloud{
+    background-image: url('picture/Group\ 1.png');
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 467px;
+    height: 152px;
+    gap: 47px;
+}
+text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-style: oblique;
+    margin: 150;
+}
+.DRIVEN{
+    font-size: 96px;
+    font-weight: 900;
+    color: #AAAAAA;
+    text-transform: uppercase;
+  background: linear-gradient(45deg, #F8A3A8, #F3C6A5, #E5E1AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin-left: 700px;
+}
+.TOGETHER{
+    font-size: 96px;
+    font-weight: 900;
+    color: #A9A9A9;
+}
+Plans_Every_Business-Size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    gap: 40px;
+    line-height: 1;
+}
+BASICPLAN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+Plans_Every_Business-Size > h1{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+Plans_Every_Business-Size > p{
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+.BasicPlan{
+    width: 463.22px;
+    height: 646.76px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.13);
+    border-radius: 15px;
+}
+.BS{
+    font-size: 26px;
+    font-weight: 500;
+}
+.BasicText{
+    font-size: 26px;
+    font-weight: 900;
+}
+.dollar{
+    font-size: 48px;
+    font-weight: 900;
+}
+.Ipsum{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.Ipsum1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    opacity: 0.5;
+    font-size: 23px;
+    font-weight: 500;
+}
+.PurchaseNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 305px;
+    height: 67px;
+    border: 1px solid#000;
+    border-radius: 100px;
+    background: #000;
+    border-color: #000;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+our_clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 150px;
+}
+.ITSELF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 64px;
+    font-weight: 900;
+}
+.arrowww{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 150px;
+}
+.GROWING{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 350px;
+}
+.teeext > h1{
+    font-size: 32px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.teeext > p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #AAAAAA;
+}
+footer{
+    background-image: url('picture/Footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 861px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+logotext_Footer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+    color: #ffff;
+}
+.HOME_Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 552px;
+    height: 45px;
+    gap: 40px;
+    border: 1px solid #ffff;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffff;
+}
+conteiner_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.Ourlinks{
+    font-size: 20px;
+    font-weight: 100;
+}
+.R{
+    font-size: 28px;
+    font-weight: 700;
+}
